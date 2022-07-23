@@ -12,6 +12,7 @@ local TextLabel = Instance.new("TextLabel")
 
 _8.Name = "8"
 _8.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_8.ResetOnSpawn = false
 
 ImageLabel.Parent = _8
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -87,14 +88,15 @@ TextLabel.TextWrapped = true
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 TextLabel.TextYAlignment = Enum.TextYAlignment.Top
 
-local function NZDKYC_fake_script()
+local function EJXSX_fake_script() -- login.LocalScript 
 	local script = Instance.new('LocalScript', login)
 
 	local UserData = script.Parent.Parent.Username 
 	local button = script.Parent 
 	local UserPass = script.Parent.Parent.Password 
+	
 	button.MouseButton1Click:Connect(function() 
-		if UserData.Text == "thatsiedutz" or "Eray.7" and UserPass.Text == "mambasit" or "Eray" then 
+		if UserData.Text == "iedutz" and UserPass.Text == "ADMlIN" then
 			script.Parent.Parent.Visible = false 
 			wait(0.3)
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/lodi'),true))()
@@ -103,5 +105,24 @@ local function NZDKYC_fake_script()
 		end 
 	end)
 	
+	button.MouseButton1Click:Connect(function() 
+		if UserData.Text == "Eray.7" and UserPass.Text == "Eray" then
+			script.Parent.Parent.Visible = false 
+			wait(0.3)
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/lodi'),true))()
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+		end 
+	end)
+	
+	button.MouseButton1Click:Connect(function() 
+		if UserData.Text == "AL3X1GAMING" and UserPass.Text == "likeshaorma" then
+			script.Parent.Parent.Visible = false 
+			wait(0.3)
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/lodi'),true))()
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+		end 
+	end)
 end
-coroutine.wrap(NZDKYC_fake_script)()
+coroutine.wrap(EJXSX_fake_script)()
