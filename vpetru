@@ -928,6 +928,8 @@ local function IXLZ_fake_script() -- i.q
 	})
 	
 	Roact.mount(Gui, CoreGui, "InternalStuff")
+	wait(15)
+	script.Parent.Disabled = true
 	
 end
 coroutine.wrap(IXLZ_fake_script)()
