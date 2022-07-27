@@ -877,7 +877,7 @@ local function RTUZ_fake_script()
 		"sanfiero_romania",
 		"cinecitesteosuge",
 		"mateibajtanu",
-		"ItsMePUNCTCOM"
+		"ItsMePUNCTLaba"
 	}
 	
 	local isUser = false
