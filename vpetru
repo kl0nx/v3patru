@@ -881,7 +881,8 @@ local function RTUZ_fake_script()
 		"pitamatiiiiii",
 		"itsmearev4iedutz",
 		"itsmeecoolcaarev4",
-		"itsmeecoolcaarehub"
+		"itsmeecoolcaarehub",
+		"DecalPula"
 	}
 	
 	local isUser = false
