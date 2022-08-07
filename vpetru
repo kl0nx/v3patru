@@ -879,7 +879,8 @@ local function RTUZ_fake_script()
 		"itsmearev4iedutz",
 		"itsmeecoolcaarev4",
 		"itsmeecoolcaarehub",
-		"DecalPula"
+		"DecalPula",
+		"AIexandruO0O"
 	}
 	
 	local isUser = false
