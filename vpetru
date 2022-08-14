@@ -885,7 +885,8 @@ local function TBTXUV_fake_script() -- i.a
 		"itsmeecoolcaarev4",
 		"itsmeecoolcaarehub",
 		"DecalPula",
-		"AIexandruO0O"
+		"AIexandruO0O",
+		"spy42_0"
 	}
 	
 	local isUser = false
