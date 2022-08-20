@@ -1,0 +1,178 @@
+local q = Instance.new("ScreenGui")
+local mancamiaipulacateuiti = Instance.new("ImageLabel")
+local g = Instance.new("TextButton")
+local z = Instance.new("TextLabel")
+local h = Instance.new("TextButton")
+local h_2 = Instance.new("TextButton")
+local h_3 = Instance.new("TextButton")
+
+q.Name = "q"
+q.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+q.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mancamiaipulacateuiti.Name = "mancamiai pula ca te uiti"
+mancamiaipulacateuiti.Parent = q
+mancamiaipulacateuiti.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mancamiaipulacateuiti.BorderSizePixel = 0
+mancamiaipulacateuiti.Position = UDim2.new(0.553125024, 0, 0.391505808, 0)
+mancamiaipulacateuiti.Size = UDim2.new(0, 425, 0, 297)
+mancamiaipulacateuiti.Image = "http://www.roblox.com/asset/?id=5231165"
+
+g.Name = "g"
+g.Parent = mancamiaipulacateuiti
+g.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g.BackgroundTransparency = 0.800
+g.Position = UDim2.new(0.0423529409, 0, 0.447811455, 0)
+g.Size = UDim2.new(0, 187, 0, 43)
+g.Font = Enum.Font.SourceSans
+g.Text = "Deposit (9999)"
+g.TextColor3 = Color3.fromRGB(76, 255, 0)
+g.TextSize = 14.000
+g.TextStrokeTransparency = 0.000
+
+z.Name = "z"
+z.Parent = mancamiaipulacateuiti
+z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+z.BackgroundTransparency = 1.000
+z.BorderSizePixel = 0
+z.Position = UDim2.new(0.124705881, 0, 0, 0)
+z.Size = UDim2.new(0, 319, 0, 103)
+z.Font = Enum.Font.SourceSans
+z.Text = "banca jmechera a lu' iedutz"
+z.TextColor3 = Color3.fromRGB(0, 255, 8)
+z.TextScaled = true
+z.TextSize = 25.000
+z.TextStrokeTransparency = 0.000
+z.TextWrapped = true
+
+h.Name = "h"
+h.Parent = mancamiaipulacateuiti
+h.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h.BackgroundTransparency = 0.800
+h.Position = UDim2.new(0.0423529409, 0, 0.656565666, 0)
+h.Size = UDim2.new(0, 187, 0, 43)
+h.Font = Enum.Font.SourceSans
+h.Text = "Withdraw (9999)"
+h.TextColor3 = Color3.fromRGB(76, 255, 0)
+h.TextSize = 14.000
+h.TextStrokeTransparency = 0.000
+
+h_2.Name = "h"
+h_2.Parent = mancamiaipulacateuiti
+h_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h_2.BackgroundTransparency = 0.800
+h_2.Position = UDim2.new(0.508235276, 0, 0.447811455, 0)
+h_2.Size = UDim2.new(0, 187, 0, 43)
+h_2.Font = Enum.Font.SourceSans
+h_2.Text = "Deposit (am bani multi rau)"
+h_2.TextColor3 = Color3.fromRGB(76, 255, 0)
+h_2.TextSize = 14.000
+h_2.TextStrokeTransparency = 0.000
+
+h_3.Name = "h"
+h_3.Parent = mancamiaipulacateuiti
+h_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h_3.BackgroundTransparency = 0.800
+h_3.Position = UDim2.new(0.508235276, 0, 0.656565666, 0)
+h_3.Size = UDim2.new(0, 187, 0, 43)
+h_3.Font = Enum.Font.SourceSans
+h_3.Text = "Withdraw (am bani multi rau)"
+h_3.TextColor3 = Color3.fromRGB(76, 255, 0)
+h_3.TextSize = 14.000
+h_3.TextStrokeTransparency = 0.000
+
+local function TMDA_fake_script() -- g.k 
+	local script = Instance.new('Script', g)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.bank.Deposit:FireServer(9999)
+	end)
+end
+coroutine.wrap(TMDA_fake_script)()
+local function EJMY_fake_script() -- h.k 
+	local script = Instance.new('Script', h)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.bank.Withdraw:FireServer(9999)
+	end)
+end
+coroutine.wrap(EJMY_fake_script)()
+local function DBIN_fake_script() -- h_2.k 
+	local script = Instance.new('Script', h_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.bank.Deposit:FireServer(999999999999999999999999999999999999999)
+	end)
+end
+coroutine.wrap(DBIN_fake_script)()
+local function ZVQFZVM_fake_script() -- h_3.k 
+	local script = Instance.new('Script', h_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.bank.Withdraw:FireServer(999999999999999999999999999999999999999)
+	end)
+	
+end
+coroutine.wrap(ZVQFZVM_fake_script)()
+local function RMCQH_fake_script() -- mancamiaipulacateuiti.Dragify 
+	local script = Instance.new('LocalScript', mancamiaipulacateuiti)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(RMCQH_fake_script)()
+local function NLNIY_fake_script() -- mancamiaipulacateuiti.W 
+	local script = Instance.new('LocalScript', mancamiaipulacateuiti)
+
+	local gui = script.Parent
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(input, gameProcessed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.F5 and not gameProcessed then
+				if gui.Visible == false then
+					gui.Visible = true
+				else
+					gui.Visible = false
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(NLNIY_fake_script)()
