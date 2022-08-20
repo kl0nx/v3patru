@@ -1,3 +1,4 @@
+
 local q = Instance.new("ScreenGui")
 local mancamiaipulacateuiti = Instance.new("ImageLabel")
 local g = Instance.new("TextButton")
@@ -81,31 +82,31 @@ h_3.TextColor3 = Color3.fromRGB(76, 255, 0)
 h_3.TextSize = 14.000
 h_3.TextStrokeTransparency = 0.000
 
-local function TMDA_fake_script() -- g.k 
+local function GTNCEA_fake_script() -- g.k 
 	local script = Instance.new('Script', g)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ReplicatedStorage.bank.Deposit:FireServer(9999)
 	end)
 end
-coroutine.wrap(TMDA_fake_script)()
-local function EJMY_fake_script() -- h.k 
+coroutine.wrap(GTNCEA_fake_script)()
+local function TIZXZPM_fake_script() -- h.k 
 	local script = Instance.new('Script', h)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ReplicatedStorage.bank.Withdraw:FireServer(9999)
 	end)
 end
-coroutine.wrap(EJMY_fake_script)()
-local function DBIN_fake_script() -- h_2.k 
+coroutine.wrap(TIZXZPM_fake_script)()
+local function PNWDKX_fake_script() -- h_2.k 
 	local script = Instance.new('Script', h_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ReplicatedStorage.bank.Deposit:FireServer(999999999999999999999999999999999999999)
 	end)
 end
-coroutine.wrap(DBIN_fake_script)()
-local function ZVQFZVM_fake_script() -- h_3.k 
+coroutine.wrap(PNWDKX_fake_script)()
+local function QJHM_fake_script() -- h_3.k 
 	local script = Instance.new('Script', h_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -113,8 +114,8 @@ local function ZVQFZVM_fake_script() -- h_3.k
 	end)
 	
 end
-coroutine.wrap(ZVQFZVM_fake_script)()
-local function RMCQH_fake_script() -- mancamiaipulacateuiti.Dragify 
+coroutine.wrap(QJHM_fake_script)()
+local function KJIGMTH_fake_script() -- mancamiaipulacateuiti.Dragify 
 	local script = Instance.new('LocalScript', mancamiaipulacateuiti)
 
 	local UIS = game:GetService("UserInputService")
@@ -155,8 +156,8 @@ local function RMCQH_fake_script() -- mancamiaipulacateuiti.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(RMCQH_fake_script)()
-local function NLNIY_fake_script() -- mancamiaipulacateuiti.W 
+coroutine.wrap(KJIGMTH_fake_script)()
+local function UQIMWH_fake_script() -- mancamiaipulacateuiti.W 
 	local script = Instance.new('LocalScript', mancamiaipulacateuiti)
 
 	local gui = script.Parent
@@ -175,4 +176,11 @@ local function NLNIY_fake_script() -- mancamiaipulacateuiti.W
 	end)
 	
 end
-coroutine.wrap(NLNIY_fake_script)()
+coroutine.wrap(UQIMWH_fake_script)()
+local function RDRR_fake_script() -- mancamiaipulacateuiti.J 
+	local script = Instance.new('LocalScript', mancamiaipulacateuiti)
+
+	game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
+	
+end
+coroutine.wrap(RDRR_fake_script)()
