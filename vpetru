@@ -1,3 +1,4 @@
+
 local i = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local l = Instance.new("ImageLabel")
@@ -62,8 +63,6 @@ local u_11 = Instance.new("UICorner")
 local u_12 = Instance.new("TextButton")
 local u_13 = Instance.new("UICorner")
 
---Properties:
-
 i.Name = "i"
 i.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 i.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -110,7 +109,6 @@ h_2.BackgroundTransparency = 0.650
 h_2.BorderSizePixel = 0
 h_2.Position = UDim2.new(0.304532647, 0, 0, 0)
 h_2.Size = UDim2.new(0, 332, 0, 294)
-h_2.CanvasPosition = Vector2.new(0, 300)
 h_2.CanvasSize = UDim2.new(0, 0, 3.20000005, 0)
 
 u.Name = "u"
@@ -580,9 +578,7 @@ u_13.CornerRadius = UDim.new(0, 3)
 u_13.Name = "u"
 u_13.Parent = u_12
 
--- Scripts:
-
-local function SVSWNWZ_fake_script() -- Frame.Dragify 
+local function HGWEQ_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -623,8 +619,8 @@ local function SVSWNWZ_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(SVSWNWZ_fake_script)()
-local function NZAW_fake_script() -- l.t 
+coroutine.wrap(HGWEQ_fake_script)()
+local function TPSWX_fake_script() -- l.t 
 	local script = Instance.new('LocalScript', l)
 
 	local text = script.Parent
@@ -642,8 +638,8 @@ local function NZAW_fake_script() -- l.t
 	
 	
 end
-coroutine.wrap(NZAW_fake_script)()
-local function MGTRM_fake_script() -- g_3.g 
+coroutine.wrap(TPSWX_fake_script)()
+local function XWCLMT_fake_script() -- g_3.g 
 	local script = Instance.new('LocalScript', g_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -651,8 +647,8 @@ local function MGTRM_fake_script() -- g_3.g
 	end)
 	
 end
-coroutine.wrap(MGTRM_fake_script)()
-local function KUKO_fake_script() -- g_5.g 
+coroutine.wrap(XWCLMT_fake_script)()
+local function AAURPPI_fake_script() -- g_5.g 
 	local script = Instance.new('LocalScript', g_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -661,8 +657,8 @@ local function KUKO_fake_script() -- g_5.g
 	
 	
 end
-coroutine.wrap(KUKO_fake_script)()
-local function HPAODIF_fake_script() -- g_7.g 
+coroutine.wrap(AAURPPI_fake_script)()
+local function IONKYRF_fake_script() -- g_7.g 
 	local script = Instance.new('LocalScript', g_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -671,8 +667,8 @@ local function HPAODIF_fake_script() -- g_7.g
 	
 	
 end
-coroutine.wrap(HPAODIF_fake_script)()
-local function QOLZUX_fake_script() -- g_9.g 
+coroutine.wrap(IONKYRF_fake_script)()
+local function RPFB_fake_script() -- g_9.g 
 	local script = Instance.new('LocalScript', g_9)
 
 	
@@ -680,8 +676,8 @@ local function QOLZUX_fake_script() -- g_9.g
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 	end)
 end
-coroutine.wrap(QOLZUX_fake_script)()
-local function IVPUCGX_fake_script() -- g_11.g 
+coroutine.wrap(RPFB_fake_script)()
+local function MMIQK_fake_script() -- g_11.g 
 	local script = Instance.new('LocalScript', g_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -690,56 +686,56 @@ local function IVPUCGX_fake_script() -- g_11.g
 	end)
 	
 end
-coroutine.wrap(IVPUCGX_fake_script)()
-local function YCJML_fake_script() -- z_3.z 
+coroutine.wrap(MMIQK_fake_script)()
+local function DYRDJ_fake_script() -- z_3.z 
 	local script = Instance.new('LocalScript', z_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/nighrt"))()
 	end)
 end
-coroutine.wrap(YCJML_fake_script)()
-local function CEJGRBD_fake_script() -- z_5.z 
+coroutine.wrap(DYRDJ_fake_script)()
+local function BWYNLX_fake_script() -- z_5.z 
 	local script = Instance.new('LocalScript', z_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antilag"))()
 	end)
 end
-coroutine.wrap(CEJGRBD_fake_script)()
-local function KVCTG_fake_script() -- h_5.h 
+coroutine.wrap(BWYNLX_fake_script)()
+local function RPAP_fake_script() -- h_5.h 
 	local script = Instance.new('LocalScript', h_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antifling"))()
 	end)
 end
-coroutine.wrap(KVCTG_fake_script)()
-local function XEFGO_fake_script() -- h_7.h 
+coroutine.wrap(RPAP_fake_script)()
+local function SQHNQQG_fake_script() -- h_7.h 
 	local script = Instance.new('LocalScript', h_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antiafk", true))()
 	end)
 end
-coroutine.wrap(XEFGO_fake_script)()
-local function GSLSQJ_fake_script() -- h_9.h 
+coroutine.wrap(SQHNQQG_fake_script)()
+local function CASGLZ_fake_script() -- h_9.h 
 	local script = Instance.new('LocalScript', h_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antipost"))()
 	end)
 end
-coroutine.wrap(GSLSQJ_fake_script)()
-local function WGIBNKT_fake_script() -- v_3.v 
+coroutine.wrap(CASGLZ_fake_script)()
+local function PZVXCU_fake_script() -- v_3.v 
 	local script = Instance.new('LocalScript', v_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/radio.txt"))()
 	end)
 end
-coroutine.wrap(WGIBNKT_fake_script)()
-local function WYGNNB_fake_script() -- v_5.v 
+coroutine.wrap(PZVXCU_fake_script)()
+local function TDCXXYO_fake_script() -- v_5.v 
 	local script = Instance.new('LocalScript', v_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -747,8 +743,8 @@ local function WYGNNB_fake_script() -- v_5.v
 	end)
 	
 end
-coroutine.wrap(WYGNNB_fake_script)()
-local function FNXPD_fake_script() -- m_3.m 
+coroutine.wrap(TDCXXYO_fake_script)()
+local function LWDSW_fake_script() -- m_3.m 
 	local script = Instance.new('LocalScript', m_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -756,8 +752,8 @@ local function FNXPD_fake_script() -- m_3.m
 	end)
 	
 end
-coroutine.wrap(FNXPD_fake_script)()
-local function RBHFJ_fake_script() -- m_5.m 
+coroutine.wrap(LWDSW_fake_script)()
+local function XTZS_fake_script() -- m_5.m 
 	local script = Instance.new('LocalScript', m_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -766,8 +762,8 @@ local function RBHFJ_fake_script() -- m_5.m
 	
 	
 end
-coroutine.wrap(RBHFJ_fake_script)()
-local function BBYV_fake_script() -- u_4.u 
+coroutine.wrap(XTZS_fake_script)()
+local function HHEXFO_fake_script() -- u_4.u 
 	local script = Instance.new('LocalScript', u_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -775,24 +771,24 @@ local function BBYV_fake_script() -- u_4.u
 	end)
 	
 end
-coroutine.wrap(BBYV_fake_script)()
-local function UCPE_fake_script() -- u_6.u 
+coroutine.wrap(HHEXFO_fake_script)()
+local function MQQPOWA_fake_script() -- u_6.u 
 	local script = Instance.new('LocalScript', u_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acsbull"))()
 	end)
 end
-coroutine.wrap(UCPE_fake_script)()
-local function TLEH_fake_script() -- u_8.u 
+coroutine.wrap(MQQPOWA_fake_script)()
+local function ASQETLG_fake_script() -- u_8.u 
 	local script = Instance.new('LocalScript', u_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acswiz", true))()
 	end)
 end
-coroutine.wrap(TLEH_fake_script)()
-local function KOMK_fake_script() -- u_10.u 
+coroutine.wrap(ASQETLG_fake_script)()
+local function ZPPKVDV_fake_script() -- u_10.u 
 	local script = Instance.new('LocalScript', u_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -800,8 +796,8 @@ local function KOMK_fake_script() -- u_10.u
 	end)
 	
 end
-coroutine.wrap(KOMK_fake_script)()
-local function DWAPHFC_fake_script() -- u_12.u 
+coroutine.wrap(ZPPKVDV_fake_script)()
+local function FKZM_fake_script() -- u_12.u 
 	local script = Instance.new('LocalScript', u_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -809,8 +805,8 @@ local function DWAPHFC_fake_script() -- u_12.u
 	end)
 	
 end
-coroutine.wrap(DWAPHFC_fake_script)()
-local function GTJFN_fake_script() -- Frame.g 
+coroutine.wrap(FKZM_fake_script)()
+local function NJDV_fake_script() -- Frame.g 
 	local script = Instance.new('LocalScript', Frame)
 
 	local gui = script.Parent
@@ -828,8 +824,8 @@ local function GTJFN_fake_script() -- Frame.g
 		end
 	end)
 end
-coroutine.wrap(GTJFN_fake_script)()
-local function TBTXUV_fake_script() -- i.a 
+coroutine.wrap(NJDV_fake_script)()
+local function RBKTX_fake_script() -- i.a 
 	local script = Instance.new('LocalScript', i)
 
 	local balanigga = game.Players.LocalPlayer
@@ -905,8 +901,8 @@ local function TBTXUV_fake_script() -- i.a
 		tesalut.Enabled = false
 	end
 end
-coroutine.wrap(TBTXUV_fake_script)()
-local function AYCBYAL_fake_script() -- i.q 
+coroutine.wrap(RBKTX_fake_script)()
+local function AMCYFRZ_fake_script() -- i.q 
 	local script = Instance.new('LocalScript', i)
 
 	local CoreGui = game:GetService("CoreGui")
@@ -943,8 +939,8 @@ local function AYCBYAL_fake_script() -- i.q
 	wait(5)
 	script.Disabled = true
 end
-coroutine.wrap(AYCBYAL_fake_script)()
-local function AKTUCH_fake_script() -- i.W 
+coroutine.wrap(AMCYFRZ_fake_script)()
+local function UUZQDA_fake_script() -- i.W 
 	local script = Instance.new('LocalScript', i)
 
 	local Namecall
@@ -960,4 +956,13 @@ local function AKTUCH_fake_script() -- i.W
 	end)
 	
 end
-coroutine.wrap(AKTUCH_fake_script)()
+coroutine.wrap(UUZQDA_fake_script)()
+local function MABMEO_fake_script() -- i.LocalScript 
+	local script = Instance.new('LocalScript', i)
+
+	if game.GameId == 9690208731 then
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/DAH'),true))()
+	end
+	
+end
+coroutine.wrap(MABMEO_fake_script)()
