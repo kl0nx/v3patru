@@ -164,7 +164,7 @@ local function EJXSX_fake_script() -- login.LocalScript
 		end 
 	end)
         button.MouseButton1Click:Connect(function() 
-		if UserData.Text == "Eduard_Law" and UserPass.Text == "dacanuestiedinuestismecher" then
+		if UserData.Text == "EduardLaw" and UserPass.Text == "dacanuestiedinuestismecher" then
 			script.Parent.Parent.Visible = false 
 			wait(0.3)
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/v3patru/main/lodi'),true))()
