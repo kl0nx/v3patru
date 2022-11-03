@@ -886,7 +886,8 @@ local function RBKTX_fake_script() -- i.a
 		"futetefa",
 		"ttv347hdh",
 		"k_3ze",
-                "eduard325454"
+                "eduard325454",
+                "Daivd_WYW"
 	}
 	
 	local isUser = false
