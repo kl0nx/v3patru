@@ -830,7 +830,7 @@ local function RBKTX_fake_script() -- i.a
 	local balanigga = game.Players.LocalPlayer
 	
 	local nush = {"eduard325454",
-		"DavidtheHitman"
+		"pitamatiiiiii"
 	}
 	
 	local isUser = false
